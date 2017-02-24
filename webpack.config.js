@@ -2,9 +2,9 @@ var webpack = require('webpack')
 var path = require('path')
 
 var BUILD_DIR = path.resolve(
-  '/Users/timsiwula/Dropbox/code/front_end/react/react-mvc-template/frontend/react/build')
+  '/Users/timsiwula/WebstormProjects/reactjs/build')
 var APP_DIR = path.resolve(
-  '/Users/timsiwula/Dropbox/code/front_end/react/react-mvc-template/frontend/react/app')
+  '/Users/timsiwula/WebstormProjects/reactjs/app')
 
 var config = {
   entry: APP_DIR + '/index.jsx'

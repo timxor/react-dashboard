@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "webpack -p"
   },
   "dependencies": {
     "babel-cli": "^6.18.0",
@@ -53,5 +54,5 @@
     "n/a"
   ],
   "author": "tcsiwula",
-  "license": "ISC",
+  "license": "ISC"
 }
